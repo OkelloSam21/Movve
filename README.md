@@ -16,7 +16,8 @@
 ## ScreenShots
 
 ###
-![movve2](https://github.com/OkelloSam21/Movve/assets/115361239/5204f3ac-7286-4e38-a9d2-88b9862f1821)
 
+
+![image](https://github.com/OkelloSam21/Movve/assets/115361239/4383512d-ce73-49a6-8ad3-d3495443ad6a)
 
 ##
