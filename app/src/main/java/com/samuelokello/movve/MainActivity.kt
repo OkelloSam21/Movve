@@ -5,7 +5,6 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
@@ -23,9 +22,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.Card
 import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
@@ -90,7 +87,7 @@ class MainActivity : ComponentActivity() {
 							item {
 								Text(
 									text = "Popular Movie",
-									fontSize = 24.sp,
+									fontSize = 32.sp,
 									color = Color.White,
 								)
 								Spacer(modifier = Modifier.height(8.dp))
@@ -109,7 +106,7 @@ class MainActivity : ComponentActivity() {
 							item {
 								Text(
 									text = "TV Show",
-									fontSize = 24.sp,
+									fontSize = 32.sp,
 									color = Color.White,
 								)
 								Spacer(modifier = Modifier.height(8.dp))
@@ -127,8 +124,8 @@ class MainActivity : ComponentActivity() {
 							}
 							item {
 								Text(
-									text = "Popular Movie",
-									fontSize = 24.sp,
+									text = "Recommended ",
+									fontSize = 32.sp,
 									color = Color.White,
 								)
 								Spacer(modifier = Modifier.height(8.dp))
@@ -147,7 +144,7 @@ class MainActivity : ComponentActivity() {
 							item {
 								Text(
 									text = "Series",
-									fontSize = 24.sp,
+									fontSize = 32.sp,
 									color = Color.White
 								)
 								Spacer(modifier = Modifier.height(8.dp))
@@ -181,6 +178,7 @@ class MainActivity : ComponentActivity() {
 		Movie("Spider Man","2022 ", R.drawable.sm_across_sv_final_2023),
 		Movie("Up Coming","2022", R.drawable.upcomming),
 		Movie("Tourist Guide","2022 ", R.drawable.touristguide),
+		Movie("64","2023 ", R.drawable.sixty_four),
 	)
 	
 	@Composable
@@ -202,6 +200,7 @@ class MainActivity : ComponentActivity() {
 				)
 			}
 			Text(
+				modifier = Modifier,
 				text = movie.title,
 				color = Color.White,
 			)
