@@ -1,6 +1,6 @@
 # MOVVE 
 
-</br>
+
 
  This is android up uses lazy layouts to display Images of movie shows.
 
@@ -15,5 +15,6 @@
 
 ## ScreenShots
 
+<img src ="home/samuel/Pictures/Screenshots/movve2.png">
 
 ##
